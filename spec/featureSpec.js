@@ -9,7 +9,7 @@ describe('Feature Test:', function () {
       airport = new Airport();
     });
 
-    it('planes can be intruscted to land', function () {
+    it('planes can be instructed to land', function () {
       plane.land(airport);
       expect(airport.planes()).toContain(plane);
     });
