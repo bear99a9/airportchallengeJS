@@ -8,7 +8,11 @@ class Airport {
     return this._hanger;
   }
 
-  clearToLand(plane) {
+  clearForLanding(plane) {
     this._hanger.push(plane);
+  }
+
+  clearForTakeOff(plane) {
+    this._hanger = [];
   }
 }
