@@ -2,6 +2,6 @@
 
 class Plane {
   land(airport) {
-    airport.clearToland(this);
+    airport.clearToLand(this);
   };
 }
