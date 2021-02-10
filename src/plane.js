@@ -7,6 +7,7 @@ class Plane {
 
   land(airport) {
     airport.clearForLanding(this);
+    this._location = airport;
   };
 
   takeoff() {
